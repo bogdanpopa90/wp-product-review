@@ -582,6 +582,21 @@
 	clear: both !important;
 }
 
+.wppr-inline-pie-chart {
+	position: relative;
+	width: 120px;
+	height: 120px;
+}
+
+.wppr-inline-pie-chart .wppr-c100 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+
 /* Comment Form Meta Options - GRADE BAR */
 
 #wppr-slider-comment .comment-meta-option .comment-meta-grade-bar {
@@ -635,7 +650,8 @@
 		width: 100px;
 	}
 
-	#review-statistics .review-wrap-up .review-wu-left .review-wu-grade-content {
+	#review-statistics .review-wrap-up .review-wu-left .review-wu-grade-content,
+	.wppr-inline-pie-chart {
 		width: 100px;
 		height: 100px;
 	}
@@ -644,7 +660,8 @@
 		font-size: 100px;
 	}
 
-	#review-statistics .review-wu-grade .wppr-c100 span {
+	#review-statistics .review-wu-grade .wppr-c100 span,
+	.wppr-inline-pie-chart .wppr-c100 span {
 		font-size: 28px;
 		line-height: 100px;
 	}
